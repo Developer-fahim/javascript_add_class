@@ -4,15 +4,20 @@
     <title>bla bla </title>
     <link rel="stylesheet" href="style.css">
     <script src="java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head> 
 		
 <body> 
     <h1>Yo Hi</h1>
     
-	<p id = "test">Checking the add css </p> 
-    <button onclick = "addClass()"> AddClass </button> 
+	<p class = "test">Checking the add css </p> 
+    <button onclick = "click()"> AddClass </button> 
     
-    <p id = "nothing">Checking the add css </p> 
-    <button onclick = "addClass()"> AddClass </button> 
+    <p class = "nothing">Checking the add css </p> 
+    <button onclick = "click()"> AddClass </button> 
+	
+<script>
+	$('.class').addClass('addCSS') //simple
+</script>
 </body>
 </html>
